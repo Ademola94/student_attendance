@@ -139,7 +139,6 @@ INSERT INTO `courses` (`id`, `course`, `description`, `date_created`) VALUES
 
 CREATE TABLE `faculty` (
   `id` int(30) NOT NULL,
-  `id_no` varchar(50) NOT NULL,
   `name` text NOT NULL,
   `email` varchar(200) NOT NULL,
   `contact` varchar(50) NOT NULL,
